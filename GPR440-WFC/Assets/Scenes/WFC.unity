@@ -289,7 +289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c7faf229cc8b154f810d8c7414c90c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dimensions: 5
+  dimensions: 20
   tileObjects:
   - {fileID: -6432508158000806786, guid: bdf7d6f7c84971142a5abb5032260ff1, type: 3}
   - {fileID: -3263864541844875956, guid: 840e03d7c2bec0f409180ec9dcd93ef7, type: 3}
@@ -310,7 +310,7 @@ Transform:
   m_GameObject: {fileID: 2079539560}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -10, y: -10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
