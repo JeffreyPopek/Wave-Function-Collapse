@@ -12,6 +12,8 @@ public class WaveFunction : MonoBehaviour
     public List<Cell> gridComponents;
     public Cell cellObj;
 
+    [SerializeField] private bool _slowGeneration;
+
     int iterations = 0;
 
     void Awake()
@@ -61,7 +63,10 @@ public class WaveFunction : MonoBehaviour
             tempGrid.RemoveRange(stopIndex, tempGrid.Count - stopIndex);
         }
 
-        yield return new WaitForSeconds(0.01f);
+        if(_slowGeneration)
+            yield return new WaitForSeconds(0.1f);
+        else
+            yield return new WaitForSeconds(0.0001f);
 
         CollapseCell(tempGrid);
     }

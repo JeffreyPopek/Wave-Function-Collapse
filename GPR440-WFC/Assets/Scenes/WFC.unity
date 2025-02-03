@@ -210,7 +210,7 @@ Transform:
   m_GameObject: {fileID: 1450024329}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 8.9, y: 10, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -301,6 +301,7 @@ MonoBehaviour:
   - {fileID: 5564815241603828311, guid: a781f45fc6e8f4b428324944cad693b6, type: 3}
   gridComponents: []
   cellObj: {fileID: 1167057977333826483, guid: 39e36410a7610d047b5fef6a203ab6cd, type: 3}
+  _slowGeneration: 1
 --- !u!4 &2079539562
 Transform:
   m_ObjectHideFlags: 0
@@ -310,7 +311,7 @@ Transform:
   m_GameObject: {fileID: 2079539560}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10, y: -10, z: 0}
+  m_LocalPosition: {x: -21.52, y: -11.47, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
